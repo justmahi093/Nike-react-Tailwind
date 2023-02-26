@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome lnik -->
+    <script src="https://kit.fontawesome.com/c6571cde25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Website title -->
+    <title>Nike React</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                header:'#FFF9F4',
+                price:'#FA804C',
+              },
+            },
+          }
+        }
+      </script>
+</head>
+<body>
+
+
+    <!-- Header start -->
+
+        <header class="bg-header pt-7 pb-20">
+
+           <nav class="container mx-auto lg:px-10 flex justify-around sm:px-0 md:px-3">
+
+            <div>
+                <img class="w-72 h-9" src="icons/Logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-[4vw]">
+                   <li class="font-semibold hover:text-orange-500"><a href="#">Home</a></li> 
+                   <li class="font-semibold hover:text-orange-500"><a href="#">Product</a></li> 
+                   <li class="font-semibold hover:text-orange-500"><a href="#">About us</a></li> 
+                   <li class="font-semibold hover:text-orange-500"><a href="#">Contact us</a></li> 
+                </ul>
+            </div>
+
+           </nav>
+
+           <section class="md:flex lg:flex items-center pt-10">
+
+            <div>
+                <img class="lg:w-9/12" src="images/Group 33092.png" alt="">  
+            </div>
+             <div class="mt-12">
+                <h1 class="text-5xl font-bold uppercase">
+                  <span class="text-orange-500">Nike React</span><br>
+                  <span>Infinity Run 2</span>
+                </h1>
+                <p class="pt-5 leading-7 text-gray-500">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.as it has a global presence that earns more than $18 billion in revenue.</p>
+                <button class="bg-blue-700 text-white font-semibold py-3 px-7 rounded-lg uppercase mt-5"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+             </div>
+
+           </section>
+         
+        </header>
+
+    <!-- Header end -->
+
+
+    <main class="container mx-auto px-10">
+
+      <!-- Casual shoes start -->
+
+          <section class="mt-20">
+
+              <h2 class="uppercase text-5xl font-bold py-14">Casual Shoes</h2>
+
+              <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+                <div class="shadow-lg rounded-lg p-5">
+                  <div class="bg-slate-100">
+                    <img class="w-80 m-auto rounded-lg" src="images/shoes-1.png" alt="">
+                  </div>
+                  <div>
+                      <h3 class="text-3xl font-semibold pt-3">Nike Shoe</h3>
+                      <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                      <div class="flex justify-between">
+                        <p class="text-price text-5xl font-bold pt-5">$234</p>
+                        <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-5"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+ 
+                <div class="shadow-lg rounded-lg p-5">
+                  <div class="bg-slate-100">
+                    <img class="w-80 m-auto rounded-lg" src="images/shoes-2.png" alt="">
+                  </div>
+                  <div>
+                      <h3 class="text-3xl font-semibold pt-3">Sneakers Skate Shoe </h3>
+                      <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                      <div class="flex justify-between">
+                        <p class="text-price text-5xl font-bold pt-5">$234</p>
+                        <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-5"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+ 
+                <div class="shadow-lg rounded-lg p-5">
+                  <div class="bg-slate-100">
+                    <img class="w-96 m-auto rounded-lg" src="images/shoes-3 .png" alt="">
+                    </div>
+                  <div>
+                      <h3 class="text-3xl font-semibold pt-3">Cricket shoe</h3>
+                      <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                      <div class="flex justify-between">
+                        <p class="text-price text-5xl font-bold pt-5">$234</p>
+                        <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-5"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+          </section>
+
+      <!-- Casual shoes end -->
+
+      <!-- Formal shoes start -->
+
+          <section class="mt-20">
+
+            <h2 class="uppercase text-5xl font-bold py-14">Formal Shoes</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+              <div class="shadow-lg rounded-lg p-4">
+                <div>
+                  <img class="w-80 m-auto rounded-lg" src="images/shoes-4.png" alt="">
+                </div>
+                <div>
+                  <h3 class="text-3xl font-semibold pt-3">Prestige High-Cut Leather </h3>
+                  <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                  <div class="flex justify-between">
+                    <p class="text-price text-5xl font-bold pt-5">$234</p>
+                    <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-5"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg rounded-lg p-4">
+                <div>
+                  <img class="w-80 m-auto rounded-lg" src="images/shoes-5.png" alt="">
+                </div>
+                <div>
+                  <h3 class="text-3xl font-semibold pt-3">Slip-On Formal Shoe</h3>
+                  <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                  <div class="flex justify-between">
+                    <p class="text-price text-5xl font-bold pt-14">$234</p>
+                    <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-14"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg rounded-lg p-5">
+                <div>
+                  <img class="w-80 m-auto rounded-lg" src="images/shoes-6.png" alt="">
+                </div>
+                <div>
+                  <h3 class="text-3xl font-semibold pt-3">Slip-On Formal Shoe</h3>
+                  <p class="pt-3">Nike is a leading manufacturer of sports-related products, including shoes, apparel and equipment.</p>
+                  <div class="flex justify-between">
+                    <p class="text-price text-5xl font-bold pt-12">$234</p>
+                    <button class="bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg uppercase mt-12"><i class="fa-solid fa-cart-plus mr-2"></i>Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      <!-- Formal shoes end -->
+
+      <!-- Our benifits start -->
+
+       <section class="my-24">
+
+        <div class="grid md:grid-cols-1 lg:grid-cols-2">
+      
+          <div>
+
+            <div class="h-36 w-4/5 mb-7">
+            <div class="flex items-center shadow-lg p-5 rounded-lg">
+              <div>
+                <img class="w-24 pr-3" src="icons/image 12.png" alt="">
+              </div>
+              <div>
+                <h3 class="text-3xl font-bold">Find the Perfect Fit
+                </h3>
+                <p>Everybody is different, which is why we offer styles for every body.</p>
+              </div>
+            </div>
+          </div>
+      
+           <div class="h-36 w-4/5 mb-7">
+            <div class="flex items-center shadow-lg p-5 rounded-lg">
+              <div>
+                <img class="w-24 pr-3" src="icons/image 13.png" alt="">
+              </div>
+              <div>
+                <h3 class="text-3xl font-bold">Free Exchanges
+                </h3>
+                <p>One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="h-36 w-4/5 mb-7">
+            <div class="flex items-center shadow-lg p-5 rounded-lg">
+              <div>
+                <img class="w-24 pr-3" src="icons/image 14.png" alt="">
+              </div>
+              <div>
+                <h3 class="text-3xl font-bold">Contact Our Seller</h3>
+                <p>They are here to help you. That's quite literally what we pay them for.</p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+ 
+          <div class="sm:w-48">
+            <img class="md:max-w-prose lg:max-w-prose mt-10" src="icons/shop.png" alt="">
+          </div>
+        
+        </div>
+      
+      </section>
+
+      <!-- Our benifits end -->
+
+
+    </main>
+
+
+</body>
+</html>
